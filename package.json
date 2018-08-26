@@ -1,0 +1,19 @@
+{
+  "name": "gmorus-pjs",
+  "version": "1.0.0",
+  "description": "PimpTrizkit/PJs fork as a node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/gmorzycki/PJs.git"
+  },
+  "author": "Grzegorz Morzycki <gmorzycki@gmail.com> (https://morzycki.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gmorzycki/PJs/issues"
+  },
+  "homepage": "https://gitlab.com/gmorzycki/PJs#README"
+}
