@@ -4,7 +4,11 @@
   "description": "PimpTrizkit/PJs fork as a node module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rm-dir": "rm -rf lib",
+    "mk-dir": "mkdir lib",
+    "build-index": "npx babel index.dev.js --out-file index.js",
+    "build-lib": "npx babel src --out-dir lib",
+    "build": "npm-run-all rm-dir mk-dir build-lib build-index"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,11 @@
   "bugs": {
     "url": "https://gitlab.com/gmorzycki/PJs/issues"
   },
-  "homepage": "https://gitlab.com/gmorzycki/PJs#README"
+  "homepage": "https://gitlab.com/gmorzycki/PJs#README",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "npm-run-all": "^4.1.3"
+  }
 }
