@@ -16,4 +16,5 @@ const pOTS=(o)=> {
     if (typeof(o) == "object") pOTS.check.pop();
     if (na) return "{"+str.slice(0,-1)+"}";
     else return "["+str.slice(0,-1)+"]";
-}
+};
+export default pOTS;

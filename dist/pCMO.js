@@ -15,3 +15,4 @@ const pCMO =(cO,cPF)=> {
     };
     return cmo.P();
 };
+export default pCMO;
