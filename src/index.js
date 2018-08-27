@@ -1,5 +1,3 @@
-'use strict';
-
 export {default as dcE} from "./dcE";
 export {default as dgCN} from "./dgCN";
 export {default as dgCNz} from "./dgCNz";
