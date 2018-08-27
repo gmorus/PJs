@@ -11,7 +11,7 @@ $ npm install https://gitlab.com/gmorzycki/PJs.git
 Module is not registered at npm yet.
 
 ## Usage
-```ecmascript 6
+```javascript
 import { pOTS } from 'gmorus-pjs';
 
 // ...
