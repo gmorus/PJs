@@ -14,7 +14,7 @@
     "url": "git+ssh://git@gitlab.com/gmorzycki/PJs.git"
   },
   "author": "Grzegorz Morzycki <gmorzycki@gmail.com> (https://morzycki.com)",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://gitlab.com/gmorzycki/PJs/issues"
   },
