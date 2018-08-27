@@ -6,9 +6,8 @@
   "scripts": {
     "rm-dir": "rm -rf lib",
     "mk-dir": "mkdir lib",
-    "build-index": "npx babel index.dev.js --out-file index.js",
     "build-lib": "npx babel src --out-dir lib",
-    "build": "npm-run-all rm-dir mk-dir build-lib build-index"
+    "build": "npm-run-all rm-dir mk-dir build-lib"
   },
   "repository": {
     "type": "git",
